@@ -1,6 +1,6 @@
 const visit = require("unist-util-visit");
 const _ = require("lodash");
-const HTMLtoJSX = require("htmltojsx");
+const HTMLtoJSX = require("@erikwithuhk/html-to-jsx");
 const map = require("unist-util-map");
 const debug = require("debug")("get-source-plugins-as-remark-plugins");
 
