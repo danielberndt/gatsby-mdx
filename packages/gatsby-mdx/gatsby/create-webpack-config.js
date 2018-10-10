@@ -24,7 +24,7 @@ module.exports = (
           use: [
             loaders.js(),
             {
-              loader: "gatsby-mdx/loaders/mdx-loader",
+              loader: "@danielberndt/gatsby-mdx/loaders/mdx-loader",
               options: {
                 ...other,
                 pluginOptions: options
